@@ -2,9 +2,7 @@
 
 ***
 
-# TianJie
-
-## Detail：
+# Library Complete Template
 
 My javascript library
 

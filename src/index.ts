@@ -1,5 +1,5 @@
 /**
- * @name 说hello
+ * @name 这是一个说hello的函数
  * @group 工具函数
  * @param name 名称
  * @returns

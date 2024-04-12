@@ -4,7 +4,7 @@
 
 # 函数: sayHello()
 
-### 说hello
+### 这是一个说hello的函数
 
 <a id="undefined" name="undefined"></a>
 
@@ -22,14 +22,14 @@
 
 ## 方法名称
 
-说hello
+这是一个说hello的函数
 
 ## 示例
 
 ```ts
-sayHello('hacxy'); // Hello, hacxy!
+console.log(sayHello('hacxy')); // Hello, hacxy!
 ```
 
 ## 查看源码
 
-index.ts:11
+[index.ts:11](https://github.com/hacxy/library-complete-template/blob/a18651b9d54678e63ead8716d7ada5b522c0361b/src/index.ts#L11)
