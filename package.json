@@ -1,0 +1,52 @@
+{
+  "name": "library-complete-template",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.min.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "docs:dev": "concurrently \"typedoc --watch\" \"vitepress dev docs\" ",
+    "docs:build": "typedoc && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "release": "dotenv release-it",
+    "release:ci": "dotenv release-it --ci",
+    "demo:web": "vite",
+    "demo:node": "node test/demo.node.js",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "template",
+    "javascript library"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "@types/node": "^20.12.7",
+    "@vitest/ui": "^1.5.0",
+    "concurrently": "^8.2.2",
+    "dotenv-cli": "^7.2.1",
+    "eslint": "^8.56.0",
+    "globals": "^15.0.0",
+    "oh-my-live2d": "^0.16.1",
+    "release-it": "^15.5.1",
+    "typedoc": "0.25.13",
+    "typedoc-plugin-markdown": "4.0.0-next.55",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.6.0",
+    "vite": "^5.2.8",
+    "vite-plugin-dts": "^3.3.1",
+    "vitepress": "1.1.0",
+    "vitest": "^1.5.0",
+    "vue": "^3.3.4"
+  }
+}
