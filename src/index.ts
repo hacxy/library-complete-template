@@ -5,7 +5,7 @@
  * @returns
  * @example
  * ```ts
- * sayHello('hacxy'); // Hello, hacxy!
+ * console.log(sayHello('hacxy')); // Hello, hacxy!
  * ```
  */
 export const sayHello = (name: string): string => {
@@ -16,6 +16,10 @@ export const sayHello = (name: string): string => {
  * @name helloWorld
  * @group 示例函数
  * @returns
+ * @example
+ * ```ts
+ * console.log(helloWorld()); // Hello, World!
+ * ```
  */
 export const helloWorld = () => {
   return 'Hello, World!';

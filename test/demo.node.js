@@ -1,2 +1,2 @@
-import { isDate } from '../dist/index.js';
-console.log(isDate(new Date())); // true
+import { helloWorld } from '../dist/index.js';
+console.log(helloWorld()); // Hello, World!
