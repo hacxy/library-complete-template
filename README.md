@@ -10,7 +10,7 @@ English | [简体中文](./README_zh.md)
 - Developed using TypeScript because we all love types
 - Extremely fast, built using [vite](https://vitejs.dev/), enjoy the lightning-fast experience brought by Vite
 - Comments as documentation, automatically output markdown documents using [typedoc](https://typedoc.org/) and [typedoc-plugin-markdown](https://typedoc-plugin-markdown.org/), driven by [vitepress](https://vitepress.dev/)
-- Unit testing with vitest for a more user-friendly testing experience, supporting UI mode
+- Unit testing with [vitest](https://vitest.dev/) for a more user-friendly testing experience, supporting UI mode
 
 ## Examples
 

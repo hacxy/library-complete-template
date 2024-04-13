@@ -10,7 +10,7 @@
 - 使用 typescript 开发, 我们都喜欢 type
 - 极快的, 使用 [vite](https://vitejs.dev/) 构建, 享受 vite 带来的极速体验
 - 注释即文档, 使用 [typedoc](https://typedoc.org/) 以及 [typedoc-plugin-markdown](https://typedoc-plugin-markdown.org/)自动输出 markdown 文档, 并交给 [vitepress](https://vitepress.dev/) 驱动
-- 使用 vitest 进行单元测试, 更友好的测试体验, 支持 ui 模式
+- 使用 [vitest](https://vitest.dev/) 进行单元测试, 更友好的测试体验, 支持 ui 模式
 
 ## 示例
 
