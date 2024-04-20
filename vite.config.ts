@@ -6,10 +6,9 @@ export default defineConfig({
   build: {
     emptyOutDir: true,
     lib: {
-      formats: ['es', 'umd'], // 打包出es和umd两种格式
       entry: './src/index.ts',
       name: 'UTILS',
-      fileName: (format) => `index.${format === 'umd' ? 'min.js' : 'js'}`
+      fileName: 'index'
     }
   },
   resolve: {
