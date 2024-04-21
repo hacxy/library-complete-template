@@ -4,6 +4,8 @@
 
 [English](./README.md) | 简体中文
 
+你可以前往 [bilibili](https://www.bilibili.com/video/BV1AC411V7kt) 观看这个模板的详细介绍视频
+
 ## 特点
 
 - 开箱即用, 具备完整的基础设施, 无复杂配置
