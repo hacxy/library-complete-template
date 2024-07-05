@@ -4,6 +4,10 @@
 
 # library-complete-template
 
+## 函数
+
+- [addition](functions/addition.md)
+
 ## 工具函数
 
 - [sayHello](functions/sayHello.md)

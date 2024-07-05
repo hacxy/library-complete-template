@@ -10,7 +10,7 @@
 
 ## 参数
 
-| 参数 | Type | Description |
+| 参数名 | 类型 | 描述 |
 | :------ | :------ | :------ |
 | `name` | `string` | 名称 |
 
@@ -26,4 +26,4 @@ console.log(sayHello('hacxy')); // Hello, hacxy!
 
 ## 查看源码
 
-[index.ts:11](https://github.com/hacxy/library-complete-template/blob/3850c3e211379b0cf328e0e8267d958e966db0a4/src/index.ts#L11)
+[index.ts:10](https://github.com/hacxy/library-complete-template/blob/4da082efa6195633993e0cab7d7cbbf000bed81f/src/index.ts#L10)

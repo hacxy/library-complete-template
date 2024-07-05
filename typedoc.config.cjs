@@ -13,6 +13,8 @@ module.exports = {
     'label.source': '查看源码',
     'label.extends': '继承',
     'label.implements': '实现',
+    'label.type': '类型',
+    'label.description': '描述',
     'kind.typeAlias.plural': '类型别名',
     'kind.typeAlias.singular': '类型别名',
     'kind.class.plural': '类',
@@ -25,7 +27,7 @@ module.exports = {
     'label.defaultValue': '默认值',
     'kind.function.plural': '函数',
     'kind.function.singular': '函数',
-    'kind.parameter.singular': '参数',
+    'kind.parameter.singular': '参数名',
     'kind.parameter.plural': '参数'
   }
 };

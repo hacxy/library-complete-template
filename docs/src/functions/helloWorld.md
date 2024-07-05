@@ -20,4 +20,4 @@ console.log(helloWorld()); // Hello, World!
 
 ## 查看源码
 
-[index.ts:24](https://github.com/hacxy/library-complete-template/blob/3850c3e211379b0cf328e0e8267d958e966db0a4/src/index.ts#L24)
+[index.ts:22](https://github.com/hacxy/library-complete-template/blob/4da082efa6195633993e0cab7d7cbbf000bed81f/src/index.ts#L22)

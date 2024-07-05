@@ -31,10 +31,14 @@ export function load(app) {
     return name ? `### ${name}` : '';
   });
 
-  app.renderer.on(MarkdownPageEvent.END, (event) => {
-    event.contents = event.contents.replace('Example', '示例');
-    event.contents = event.contents.replace('Name', '方法名称');
-    event.contents = event.contents.replace('Signature', '方法签名');
+  app.renderer.on(MarkdownPageEvent.END, (page) => {
+    page.contents = page.contents.replace('Example', '示例');
+    page.contents = page.contents.replace('Name', '方法名称');
+    page.contents = page.contents.replace('Signature', '方法签名');
+
+    page.contents = page.contents.replace(/## Default/g, '## 默认值:');
+    page.contents = page.contents.replace(/## Usage/g, '## 用法:');
+    page.contents = page.contents.replace(/## Deprecated/g, '## 已弃用:');
   });
 
   app.renderer.on(MarkdownRendererEvent.BEGIN, () => {
