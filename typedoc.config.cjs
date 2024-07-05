@@ -27,6 +27,5 @@ module.exports = {
     'kind.function.singular': '函数',
     'kind.parameter.singular': '参数',
     'kind.parameter.plural': '参数'
-  },
-  namedAnchors: true
+  }
 };

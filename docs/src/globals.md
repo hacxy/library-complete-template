@@ -1,4 +1,4 @@
-**library-complete-template** • [Readme](README.md) \| API
+[**library-complete-template**](README.md) • **Docs**
 
 ***
 

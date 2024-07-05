@@ -13,7 +13,7 @@ export const sayHello = (name: string): string => {
 };
 
 /**
- * @name helloWorld
+ * @name 这是一个示例函数,它打印一个Hello,World字符串
  * @group 示例函数
  * @returns
  * @example
