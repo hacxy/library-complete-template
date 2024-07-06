@@ -21,4 +21,4 @@
 
 ## 查看源码
 
-[index.ts:31](https://github.com/hacxy/library-complete-template/blob/4da082efa6195633993e0cab7d7cbbf000bed81f/src/index.ts#L31)
+[index.ts:31](https://github.com/hacxy/library-complete-template/blob/f09d8d930b62c19f5fc94416bb0cda4560c0bb0f/src/index.ts#L31)

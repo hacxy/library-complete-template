@@ -6,7 +6,7 @@
 
 This is a JavaScript library project development template with complete infrastructure and developed using TypeScript to help you quickly build a JavaScript utility library that automatically generates documentation.
 
-English | [简体中文](./README_zh.md)
+English | [简体中文](https://github.com/hacxy/library-complete-template/blob/main/README_zh.md)
 
 ## Features
 
@@ -113,7 +113,7 @@ npm run release
 
 ## How to generate documents
 
-When executing `npm run docs:dev`, typedoc will start in watch mode, and generate markdown documents for all exported methods to the `docs/src` directory. At the same time, vitepress development mode will be launched, and you can preview your document content at <http://localhost:5173/>.
+When executing `npm run docs:dev`, typedoc will start in watch mode, and generate markdown documents for all exported methods to the `docs/src` directory. At the same time, vitepress development mode will be launched, and you can preview your document.
 
 Additional documentation content can also be supplemented in method comments, but it is important to note that the comment content should be written according to the [typedoc](https://typedoc.org/guides/overview/) specifications. Here is an example:
 
